@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farras's Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo-text-container">
+        <img src="Asset/Logo.jpg" alt="Logo" class="logo">
+        <div class="logo-text">Farras</div>
+    </div>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#photo">Foto</a></li>
+            </ul>
+        </nav>
+        <br>
+    </header>
+
+    <section id="music">
+        <div class="music-player">
+            <img src="Asset/Logo.jpg" alt="Album Cover" class="album-cover">
+            <div class="music-info">
+                <h2>Avenged</h2>
+                <p>Size The Day</p>
+                <audio controls>
+                    <source src="Asset/Seize The Day - Avenged Sevenfold.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="player-controls">
+                    <i class="fas fa-backward" id="prev" title="Previous"></i>
+                    <i class="fas fa-play main-button" id="play" title="Play"></i>
+                    <i class="fas fa-forward" id="next" title="Next"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <section id="video">
+        <div class="content-box">
+            <h2>Live Konser AX7 di Jakarta</h2>
+            <video controls>
+                <source src="Asset/SEIZE THE DAY - AVENGED SEVENFOLD LIVE JAKARTA INDONESIA 2024 (360p).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <br><br>
+
+    <section id="photo">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="Asset/mat shadow.jpg" style="width:30%">
+                <h2>Vokalis</h2>
+            </div>
+            <div class="mySlides fade">
+                <img src="Asset/Synyster Gates.jpg" style="width:30%">
+                <h2>Gitaris</h2>
+            </div>
+            <div class="mySlides fade">
+                <img src="Asset/Wackerman.jpg" style="width:50%">
+                <h2>Drummer</h2>
+            </div>
+           
+        </div>
+        
+    </section>
+
+    <button onclick="location.href='form.html'">KONTAK</button>
+    <script src="script.js"></script>
+</body>
+</html>

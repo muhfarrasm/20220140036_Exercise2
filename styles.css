@@ -1,0 +1,199 @@
+body {
+    background-image: url('Asset/165566-Avenged_Sevenfold-nightmare-748x748.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    position: relative;
+}
+
+.logo-text-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.music-player {
+    background-color: #f3f3f3;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.album-cover {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.music-info h2 {
+    margin: 10px 0 5px;
+}
+
+.music-info p {
+    margin: 0 0 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.content-box {
+    border: 2px solid red;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.artist-img {
+    max-width: 100px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.music-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    width: 50%; 
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+}
+
+.text {
+    color: rgb(16, 141, 39);
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+ 
+}
+
+footer {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+#video .content-box {
+    border: 10px solid transparent;
+    border-image: linear-gradient(30deg, #252725, #ff3c00);
+    border-image-slice: 1;
+    background: #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px; 
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+#video video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#video h2 {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #f0e4e3;
+    color: rgb(12, 11, 11);
+    padding: 15px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e33e30;
+}
+
+/* Styling for the section containing the slideshow */
+#photo {
+    position: relative; /* Set to relative to make it a reference point for absolute positioning */
+}
+
+/* Style for the button next to the slideshow */
+#photo .button {
+    position: absolute; /* Set to absolute to position it relative to the #photo section */
+    top: 50%; /* Position 50% from the top of the #photo section */
+    right: -100px; /* Position 100px to the left of the right edge of the #photo section */
+    transform: translateY(-50%); /* Center vertically */
+}
